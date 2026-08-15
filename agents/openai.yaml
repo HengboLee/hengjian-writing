@@ -1,0 +1,13 @@
+interface:
+  display_name: 衡见写作
+  short_description: 面向公众号与行业评论的有判断、有证据、有活人感写作
+  default_prompt: 使用 $hengjian-writing 把这份材料写成一篇有钩子、有证据、面向普通读者的公众号文章。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
